@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://github.com/evawyf/evawyf.resume"
+baseURL = "https://gitlab.com/evawyf/evawyf.resume.base"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -33,20 +33,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "San Diego, California"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "0123 4567 890"
+        text = "+1(858)228-7603"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
+        url = "mailto:evawyf1@gmail.com"
+        text = "evawyf1 (at) gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
-        text = "www.yourwebsite.com"
+        url = "https://evawyf.com"
+        text = "www.evawyf.com"
 
 
 
@@ -60,19 +60,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "JavaScript/React/Node"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
-        [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "Python/Django/Express"
+
         [[params.skills.list.items]]
         details = "PostgreSQL/MySQL"
+
+        [[params.skills.list.items]]
+        details = "Java/Scala/Hadoop"
+        [[params.skills.list.items]]
+        details = "C++/bash/Linux"
         [[params.skills.list.items]]
         details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
 
         [[params.skills.list]]
         title = "Professional"
@@ -96,13 +96,24 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "MSc in Computational Science"
+        university = "University of California, San Diego"
+        dates = "2019 - 2021"
+
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "Grad Certificate in Statistics"
+        university = "Stanford University"
+        dates = "2014 - 2015"
+
+        [[params.education.list]]
+        degree = "MSc in Finance"
+        university = "University of International Business and Economics"
+        dates = "2012 - 2016"
+
+        [[params.education.list]]
+        degree = "BA in Advertising"
+        university = "Peking University"
+        dates = "2007 - 2011"
 
 
 
@@ -115,17 +126,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
+        name = "Outstanding Grad Thesis"
+        body = "University of International Business and Economics"
+        date = "2016"
 
 
 
@@ -134,10 +137,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.languages.list]]
-        name = "English"
+        name = "Chinese"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
+        name = "English"
         level = "Professional"
 
 
@@ -151,7 +154,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Dancing"
         [[params.interests.list]]
         name = "Snowboarding"
         [[params.interests.list]]
@@ -181,9 +184,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
+        title = "Research Assistant"
+        dates = "Oct 2019 - Apr 2020"
+        company = "DroneLab - Qualcomm Institute UCSD Division"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
         [[params.experience.list.items]]
         details = "Lorem ipsum dolor sit amet, consectetuer."
@@ -192,8 +195,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Etiam ultricies nisi vel augue."
 
+
         [[params.experience.list]]
-        title = "Lead Software Developer"
+        title = "Software Engineer"
         dates = "2016 - 2019"
         company = "Apple"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
@@ -289,16 +293,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/evawyf"
+        title = "evawyf"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/evawyf"
+        title = "evawyf"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//twitter.com/evawyf"
+        title = "@evawyf"
 
 
 
