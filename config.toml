@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://github.com/evawyf/evawyf.resume/tree/master/resources/_gen/"
+baseURL = "https://github.com/evawyf/hugo-devresume-theme/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
