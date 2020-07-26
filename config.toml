@@ -1,13 +1,10 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://github.com/evawyf/evawyf.resume"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
 
 
 
@@ -24,8 +21,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
+        name = "Eva Wang"
+        tagline = "M.S in Computational Science | Seeking Software Engineer roles"
         avatar = "avatar.png"
 
 
