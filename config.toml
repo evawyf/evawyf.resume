@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://gitlab.com/evawyf/evawyf.resume.base/"
+baseURL = "https://github.com/evawyf/evawyf.resume/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
